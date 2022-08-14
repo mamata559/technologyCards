@@ -19,13 +19,16 @@
   border-radius: 10px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding: 20px;
   margin: 20px;
   background-color: #ffffff;
-  width: 20%;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: warp;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
 }
 .heading {
   color: #171f46;
@@ -37,12 +40,7 @@
   font-size: 10px;
   font-family: 'Roboto';
 }
-.list-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
+
 .image-item {
   width: 50px;
   display: flex;

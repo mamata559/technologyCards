@@ -21,9 +21,10 @@ body {
 }
 .card-container {
   display: flex;
-
+  flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  min-width: 40%;
 }
 
 .card-list {
@@ -31,6 +32,5 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: column;
-  min-width: 60%;
+  width: 80%;
 }
